@@ -1,0 +1,124 @@
+.bg-grey {
+    background-color: #839394;
+}
+
+.nav-bar a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar li a:hover {
+    background: rgba(221, 22, 49, 0.692)
+}
+
+.nav-li {
+    margin-left: 35%;
+}
+
+.bg-grey2 {
+    background-color: #819192be;
+}
+
+.navbar-2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-2 ul li:hover {
+    background: rgba(221, 22, 49, 0.692);
+}
+
+.nav-li22 {
+    margin-right: 15%;
+}
+
+.row-opacity {
+    opacity: 5;
+}
+
+.row-opacity {
+    background: #36d7b7;
+    background: rgba(54, 215, 183, 0.5);
+}
+
+
+.my-5 {
+    margin-top: 3rem;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(17, 13, 13, 0.7);
+}
+
+.color-grey p {
+    color: grey;
+}
+
+
+.btn-subscribe {
+    background-color: #95A5A6;
+    color: white;
+    margin-top: 5%;
+}
+
+.list-social i {
+    margin-right: 20px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.list-social i:hover {
+    color: red;
+}
+
+.btn-color {
+    background-image: linear-gradient(rgb(0, 110, 255), rgb(183, 0, 255));
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.btn-2 {
+    margin-top: 3%;
+}
+
+.form-control {
+
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 7%;
+}
+
+.responsive-p {
+    margin-bottom: 20%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .nav-li {
+        margin-left: 0%;
+    }
+
+    .nav-li22 {
+        margin-right: 0%;
+    }
+}
