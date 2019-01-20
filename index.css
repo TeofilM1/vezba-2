@@ -1,0 +1,130 @@
+
+.slika {
+    position: relative;
+    padding: 0;
+}
+
+.slika img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  
+  .slika:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
+
+.siv {
+    background-color: rgb(241, 238, 238);
+}
+
+.broj {
+    font-size: 25px;
+    color: gray;
+    text-decoration-line: line-through;
+}
+
+.crta {
+    border-bottom: 1px solid gray;
+    padding-bottom: 2rem;
+}
+
+.input-group-prepend {
+    display: inline-block;
+    border-bottom: 1px solid gray;
+}
+
+.zolt {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+.siva {
+    background-color: lightseagreen;
+    color: white;
+    padding: 15px;
+}
+
+
+
+.bel {
+    background-color: white;
+}
+
+.zelen {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+.my-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.gore {
+    margin-top: 5rem;
+}
+
+.fab {
+    background-color: lightgray;
+    color: white;
+    margin-right: 15px;
+}
+
+.dva img {
+    height: 60vh; 
+}
+
+.tri img {
+    height: 20vh;
+    width: 8vw;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.zelenena {
+    width: 50px;
+    border-bottom: 2px solid green;
+}
+
+.caruosel {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.carousel-item img {
+    margin-top: 2rem;
+    height: 100px;
+    width: 100px;
+    border: 2px solid gray;
+}
+
+.zeleno {
+    color: green;
+
+}
+
+
